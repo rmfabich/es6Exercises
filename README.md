@@ -8,3 +8,6 @@
 6) arrow.js
 7) async.js
 8) asyncHell.js
+
+to compile, run "npm run compile" 
+you'll have to do this with every edit...
