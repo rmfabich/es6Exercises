@@ -2,12 +2,14 @@
  Do them in this order:
 1) talkingHead.js
 2) ledZep.js
-3) let.js
-4) letPartTwo.js
-5) callback.js
-6) arrow.js
-7) async.js
-8) asyncHell.js
+3) yourOwnClass.js
+4) let.js
+5) letPartTwo.js
+6) templatesLiterals.js
+7) callback.js
+8) arrow.js
+9) async.js
+10) asyncHell.js
 
 to compile, run "npm run compile" 
 you'll have to do this with every edit...
