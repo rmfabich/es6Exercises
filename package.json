@@ -1,10 +1,10 @@
 {
   "name": "es6-exercises",
   "version": "1.0.0",
-  "description": "",
+  "description": "Do them in this order: 1) talkingHead.js 2) ledZep.js 3) yourOwnClass.js 4) let.js 5) letPartTwo.js 6) templatesLiterals.js 7) callback.js 8) arrow.js 9) async.js 10) asyncHell.js",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha --reporter progress *Test.js",
     "compile": "babel src -d lib"
   },
   "author": "Mark Buckner <buckner.a.mark@gmail.com>",
@@ -13,5 +13,21 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "eslint": "^4.8.0"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rmfabich/es6Exercises.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/rmfabich/es6Exercises/issues"
+  },
+  "homepage": "https://github.com/rmfabich/es6Exercises#readme",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "mocha": "^5.0.0"
   }
 }
