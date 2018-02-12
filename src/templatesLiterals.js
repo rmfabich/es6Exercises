@@ -4,6 +4,10 @@ var num = 3;
 var backpack = "Jansport";
 var name = "Jens";
 
+<<<<<<< HEAD
+=======
+//comment out lines 8 and 9
+>>>>>>> 730ebd31d5ae39532f34eec2de455d4b86bbcb71
 //var example = "my name is: " + name + ", and I have " + num " + " pieces of pizza in my " + backpack + "backpack." My favorite quote
 //is 'tis a far, far cruel world.'
 console.log(example);
