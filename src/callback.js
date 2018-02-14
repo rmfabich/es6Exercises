@@ -7,8 +7,11 @@
 
 function barf(callback){
   callback();
+
 }
 
 function vomit(){
-  console.log("vomit called");
+  console.log();
 }
+
+barf(vomit);

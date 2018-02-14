@@ -8,11 +8,11 @@
 // 5
 
 //Do it!
-
-for (var i = 1; i <= 5; i++) {
+const fruit = "pear";
+for (let i = 1; i <= 5; i++) {
   setTimeout(function(){
     console.log(i);
   }, 500);
 }
-
+fruit = "strawberry";
 //lastly, declare a const and try to change it. Checkout the error message.

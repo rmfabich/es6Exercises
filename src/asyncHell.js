@@ -27,7 +27,20 @@ function queryThirdDoc(callback, err) {
     }
   }, 2000);
 };
+//var vomit = function(data) {
+//console.log("We finally have all our docs - ", data.dumbProp)
+//}
+queryFirstDoc(function(data) {
+  console.log(data.dumbProp)
+});
+querySecondDoc(function(data) {
+  console.log(data.dumbProp2)
+});
+queryThirdDoc(function(data) {
+  console.log(data.dumbProp3)
+});
 
+console.log(`We finall have all our docs - ${dumbProp1}, ${dumbProp2}, ${dumpProp3}`);
 
 //Exercise 1: using these functions, generate a string that says 
 // We finally have all our docs - {dumbProp1}, {dumbProp2}, {dumpProp3}

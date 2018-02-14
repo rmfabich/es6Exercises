@@ -8,13 +8,23 @@
 //to log "this is all the data, do whatever you want to it"
 
 function asyncSim(callback) {
-  setTimeout(() => {
-    callback('this is all the data, do whatever you want to it');
+  setTimeout((asyncSim) => {
+    callback('somebody tell me something besides barf, upchuck, spew, ralf, bile', 'this is all the data, do whatever you want to it');
   }, 2000);
+  
 };
 
 //code goes into the function call below
-asyncSim();
+asyncSim((data, data2) => {
+  //console.log(data.split(''))  This was a different way to run it without lines 20, 21 or 23.
+  for (var i = 0; i < data.length; i++) {
+    console.log(data[i]);
+  }
+  console.log(data, data2);
+});
+
+//code goes into the function call below
+
 
 //Part 2: In the callback execution, pass another string as an arg and log that one as well.
 
